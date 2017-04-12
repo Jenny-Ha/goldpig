@@ -50,7 +50,11 @@
 	<link rel="stylesheet" href="assets/css/custom-gp.css">
 	<link rel="stylesheet" href="assets/css/pages-style-gp.css">
 	
-	
+	<!-- here maps -->	
+	<script type="text/javascript" src="https://js.cit.api.here.com/v3/3.0/mapsjs-core.js"></script>
+	<script type="text/javascript" src="https://js.cit.api.here.com/v3/3.0/mapsjs-service.js"></script>
+	<script type="text/javascript" src="https://js.cit.api.here.com/v3/3.0/mapsjs-ui.js"></script>
+	<script type="text/javascript" src="https://js.cit.api.here.com/v3/3.0/mapsjs-mapevents.js"></script>	
 
 </head>
 
@@ -67,7 +71,7 @@
 						
 						<!-- LOGO -->
 						<div id="logo">
-							<a href="index-default.html">
+							<a href="index.html">
 								<img src="assets/images/logo.png" alt="">
 							</a>
 						</div><!-- logo -->
@@ -82,9 +86,9 @@
 											 
 							<ul class="menu clearfix" id="menu">
 								<li class="dropdown">
-									<a href="index-default.html">Home</a>
+									<a href="index.html">Home</a>
 									<ul>
-										<li><a href="index-default.html">Home Business</a></li>
+										<li><a href="index.html">Home Business</a></li>
 										<li><a href="index-2.html">Home Creative</a></li>
 										<li><a href="index-3.html">Home Classic</a></li>
 										<li><a href="index-4.html">Home Blog</a></li>
@@ -352,8 +356,9 @@
 						<div class="row">
 							<div class="col-sm-6">
 								
-								<div class="map" data-zoom="18" data-address="New York, NY, USA" data-address-details="<img src='assets/images/logo.png'>"></div>
-								
+								<!--<div class="map" data-zoom="18" data-address="New York, NY, USA" data-address-details="<img src='assets/images/logo.png'>"></div>-->
+								  <div id="map" class="map"> </div>
+
 							</div><!-- col -->
 							<div class="col-md-offset-1 col-md-4 col-sm-5">
 								
@@ -577,10 +582,57 @@
 	<script src="assets/plugins/submit/jquery.form.min.js"></script>
 	
 	<!-- GOOGLE MAPS -->
-	<!--<script src="http://maps.google.com/maps//js?sensor=false"></script>-->
+	<!--<script src="http://maps.google.com/maps//js?sensor=false"></script>
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDD5Gqx5aQPs_QIbfS8LeRitgebZQquDbc">
     </script>
-	<script src="assets/plugins/googlemaps/gmap3.min.js"></script>
+	<script src="assets/plugins/googlemaps/gmap3.min.js"></script>-->
+	
+	<!-- HERE MAPS -->
+	<script>
+		/**
+		 * Moves the map to display over Berlin
+		 *
+		 * @param  {H.Map} map      A HERE Map instance within the application
+		 */
+		function moveMapToBerlin(map){
+		//map.setCenter({lat:52.5159, lng:13.3777}); -16.40466, -71.57381
+		map.setCenter({lat:-16.40466, lng:-71.57381});  		
+		map.setZoom(14);
+		}
+
+
+
+
+
+		/**
+		 * Boilerplate map initialization code starts below:
+		 */
+
+		//Step 1: initialize communication with the platform
+		var platform = new H.service.Platform({
+		app_id: 'jOQNkaMLo6t0KObBS2La',
+		app_code: 'hD6uvehUHI_uaTQnlu9mzA',
+		useCIT: false,
+		useHTTPS: false
+		});
+		var defaultLayers = platform.createDefaultLayers();
+
+		//Step 2: initialize a map  - not specificing a location will give a whole world view.
+		var map = new H.Map(document.getElementById('map'),
+		defaultLayers.normal.map);
+
+		//Step 3: make the map interactive
+		// MapEvents enables the event system
+		// Behavior implements default interactions for pan/zoom (also on mobile touch environments)
+		var behavior = new H.mapevents.Behavior(new H.mapevents.MapEvents(map));
+
+		// Create the default UI components
+		var ui = H.ui.UI.createDefault(map, defaultLayers);
+
+		// Now use the map as required...
+		moveMapToBerlin(map);
+	</script>
+	
 	
 	<!-- CHARTS -->
 	<script src="assets/plugins/charts/jquery.easypiechart.min.js"></script>
