@@ -1880,7 +1880,7 @@
 	#contact-form input[type="text"],
 	#contact-form input[type="email"] {
 		border: none;
-		border-bottom: 2px solid #ccc;
+		border-bottom: 2px solid #ffd100;
 		resize: none;
 	}
 	
@@ -1892,7 +1892,7 @@
 	#contact-form input[type="url"]:focus,
 	#contact-form input[type="text"]:focus,
 	#contact-form input[type="email"]:focus {
-		border-color: #ffd100;
+		border-color: #ffbc00;
 	}
 	
 	#contact-form button[type="submit"] {

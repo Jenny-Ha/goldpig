@@ -874,13 +874,13 @@
 	}
 
 	.btn-black:hover {
-		border-color: #ffd100;
-		color: #ffd100;
+		border-color: #FFA700;
+		color: #FFA700;
 	}
 
 	.btn-black:hover:before,
 	.btn-black:hover:after {
-		border-color: #ffd100;
+		border-color: #FFA700;
 	}
 
 /***********************************************************************************
@@ -2833,7 +2833,7 @@
 	#section-28 {
 		padding: 100px 0 50px;
 		margin-bottom: -50px;
-		background-color: #f5fafc;
+		background-color: #ffda33;/*background-color: #f5fafc;*/
 	}
 	
 	#section-28 .container-fluid {
@@ -3096,7 +3096,7 @@
 		bottom: 50px;
 		width: 42px;
 		height: 42px;
-		background-color: #ecf2f8;
+		background-color: #fff8d7; /*background-color: #ecf2f8;*/
 		font-size: 30px;
 		line-height: 42px;
 		text-align: center;
@@ -3895,7 +3895,7 @@
 		height: 45px;
 		padding-right: 95px;
 		border: none;
-		border-bottom: 2px solid #b5cee4; /*TODO: reemplazar por anaranjado*/
+		border-bottom: 2px solid #ffd100/* #b5cee4; /*TODO: reemplazar por anaranjado*/
 	}
 	
 	.widget-newsletter input[type="submit"] {
