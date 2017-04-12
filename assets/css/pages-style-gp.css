@@ -141,7 +141,8 @@
 
 	#logo {
 		max-width: 100%;
-		margin: 37px 0 45px;
+		/*margin: 37px 0 45px;*/
+		margin: 30px 0 20px;
 	}
 	
 	#logo a {
@@ -612,7 +613,8 @@
 	}
 	
 	#header-sticky #logo {
-		margin: 22px 0 30px;
+		/*margin: 22px 0 30px;*/
+		margin: 15px 0px 0px;
 	}
 	
 	#header-sticky .menu {
@@ -743,7 +745,8 @@
  ***********************************************************************************/
  
  	#footer {
-		padding: 100px 0;
+		/*padding: 100px 0;*/
+		padding: 60px 0;
 		background-color: #22272c;
 		color: #fff;
 	}
@@ -756,6 +759,11 @@
 	#footer h5,
 	#footer h6 {
 		color: #fff;
+	}
+	#footer a,
+	#footer span,
+	#footer p {
+		word-break: break-word;
 	}
 	
 	#footer a:hover {
