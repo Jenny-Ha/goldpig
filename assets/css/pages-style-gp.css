@@ -1381,7 +1381,7 @@
 	}
 	
 	.portfolio-item:hover .portfolio-item-hover {
-		opacity: 1;
+		opacity: 0.85;
 	}
 	
 	.portfolio-item:hover .portfolio-item-hover .portfolio-item-details {
