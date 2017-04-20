@@ -3118,7 +3118,8 @@
 		bottom: 50px;
 		width: 42px;
 		height: 42px;
-		background-color: #fff8d7; /*background-color: #ecf2f8;*/
+		border: 2px solid rgba(255, 17, 46, 0.5); /*background-color: #ecf2f8;*/
+		color: #ff112e;
 		font-size: 30px;
 		line-height: 42px;
 		text-align: center;
@@ -3129,7 +3130,7 @@
 	}
 	
 	#scroll-up:hover {
-		background-color: #ffd100;
+		background-color: #ff112e;
 		color: #fff;
 	}
 	

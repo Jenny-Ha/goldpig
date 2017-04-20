@@ -721,7 +721,8 @@
 	#page-header {
 		padding: 55px 0;
 		margin-bottom: 100px;
-		background-color: #ffd100;
+		background-color: #0a0a15;
+		/*background-color: #04040a;*/
 		text-align: center;
 	}
 
@@ -1298,7 +1299,7 @@
 		bottom: 0;
 		left: 0;
 		margin: 25px;
-		background-color: #ffd100;
+		background-color: #ff112e;
 		color: #fff;
 		opacity: 0;
 		-webkit-transition: all 0.5s;
