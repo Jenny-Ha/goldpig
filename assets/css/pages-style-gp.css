@@ -1496,7 +1496,8 @@
  	
 	/* BLOG ARTICLE */
 	.blog-article {
-		border: 2px solid transparent;
+		/*border: 2px solid transparent;*/
+		border: 2px solid #ecf2f8;		
 		padding: 50px 0;
 		margin-bottom: 50px;
 		-webkit-transition: all 0.3s;
@@ -1507,7 +1508,9 @@
 		margin: -52px -2px 55px;
 	}
 	
-	.blog-article-thumbnail img {}
+	.blog-article-thumbnail img {
+		width: 100%;
+	}
 	
 	.blog-article-content {
 		padding: 0 45px;
@@ -1605,7 +1608,7 @@
 	}
 	
 	.blog-article:hover {
-		border-color: #ecf2f8;
+		/*border-color: #ecf2f8;*/
 	}
 	
 	.blog-article:hover .blog-article-title a {
