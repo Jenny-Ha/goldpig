@@ -40,7 +40,7 @@
 	}
 	
 	.text-highlight {
-		background-color: #000dbe;
+		background-color: #0a0a15dbe;
 		color: #fff;
 	}
 	
@@ -131,7 +131,7 @@
 	}
 	
 	.text-box.default-color {
-		background-color: #000dbe;
+		background-color: #0a0a15dbe;
 		color: #fff;
 	}
 	
@@ -230,7 +230,7 @@
 	}
 
 	.alert.alert-success {
-		background-color: #000dbe;
+		background-color: #0a0a15dbe;
 		color: #fff;
 	}
 
@@ -336,7 +336,7 @@
 
 	.panel-title a:hover,
 	.panel-title a[aria-expanded="true"] {
-		background-color: #000dbe;
+		background-color: #0a0a15dbe;
 		color: #fff;
 	}
 	
@@ -365,7 +365,7 @@
 	.nav-tabs > li.active > a,
 	.nav-tabs > li.active > a:hover,
 	.nav-tabs > li.active > a:focus {
-		background-color: #000dbe;
+		background-color: #0a0a15dbe;
 		color: #fff;
 	}
 	
@@ -383,7 +383,7 @@
 	.tabs.squares .nav-tabs > li.active > a,
 	.tabs.squares .nav-tabs > li.active > a:hover,
 	.tabs.squares .nav-tabs > li.active > a:focus {
-		background-color: #000dbe;
+		background-color: #0a0a15dbe;
 		color: #fff;
 	}
 	
@@ -569,7 +569,7 @@
 
 	.left-side:hover .timeline-container,
 	.right-side:hover .timeline-container {
-		background-color: #000dbe;
+		background-color: #0a0a15dbe;
 		color: #fff;
 	}
 
@@ -595,7 +595,7 @@
 
 	.left-side:hover:after,
 	.right-side:hover:after {
-		background-color: #000dbe;
+		background-color: #0a0a15dbe;
 	}
 
 	.timeline-load-more i {
@@ -623,7 +623,7 @@
 	
 	.horizontal-timeline-controls li a:before {
 		border-color: #fff;
-		background-color: #000dbe;
+		background-color: #0a0a15dbe;
 	}
 	
 	.horizontal-timeline-controls li a:hover:before,
@@ -649,7 +649,7 @@
 	}
 	
 	.progress-bar {
-		background-color: #000dbe;
+		background-color: #0a0a15dbe;
 	}
 	
 	.progress-bar span {
@@ -704,7 +704,7 @@
 	}
 	
 	.price-plan-header {
-		background-color: #000dbe;
+		background-color: #0a0a15dbe;
 		color: #fff;
 	}
 	
@@ -784,7 +784,7 @@
 	}
 	
 	.full-section.dark-section {
-		background-color: #000;
+		background-color: #0a0a15;
 		color: #fff;
 	}
 
@@ -1020,7 +1020,7 @@
 	}
 	
 	#section-2 {
-		background-color: #000dbe;
+		background-color: #0a0a15dbe;
 	}
 	
 	#section-2 .testimonial h6 {
@@ -1028,7 +1028,7 @@
 	}
 	
 	#section-3 {
-		background-color: #000dbe;
+		background-color: #0a0a15dbe;
 	}
 	
 	#section-4:after {
@@ -1058,11 +1058,11 @@
 	}
 	
 	#section-8 {
-		background-color: #000dbe;
+		background-color: #0a0a15dbe;
 	}
 	
 	#section-9 {
-		background-color: #000dbe;
+		background-color: #0a0a15dbe;
 	}
 	
 	#section-9 .btn:hover,
@@ -1077,11 +1077,11 @@
 	}
 	
 	#section-11 {
-		background-color: #000;
+		background-color: #0a0a15;
 	}
 	
 	#section-11 .text-parallax-content {
-		background-color: #000;
+		background-color: #0a0a15;
 		color: #fff;
 	}
 	
@@ -1090,7 +1090,7 @@
 	}
 	
 	#section-13 {
-		background-color: #000dbe;
+		background-color: #0a0a15dbe;
 	}
 	
 	#section-13 .service-box.style-2 a:hover,
@@ -1107,11 +1107,11 @@
 	}
 	
 	#section-16 {
-		background-color: #000dbe;
+		background-color: #0a0a15dbe;
 	}
 	
 	#section-17 {
-		background-color: #000dbe;
+		background-color: #0a0a15dbe;
 	}
 	
 	#section-17 .btn:hover,
@@ -1134,7 +1134,7 @@
 	}
 	
 	#section-20 {
-		background-color: #000dbe;
+		background-color: #0a0a15dbe;
 	}
 	
 	#section-20 h2 span {
@@ -1146,11 +1146,11 @@
 	}
 	
 	#section-22 {
-		background-color: #000;
+		background-color: #0a0a15;
 	}
 	
 	#section-22 .text-parallax-content {
-		background-color: #000;
+		background-color: #0a0a15;
 		color: #fff;
 	}
 	
@@ -1235,7 +1235,7 @@
 	}
 	
 	#scroll-up:hover {
-		background-color: #000dbe;
+		background-color: #0a0a15dbe;
 		color: #fff;
 	}
 
@@ -1247,7 +1247,7 @@
 	/* ARROWS */
 	.tp-leftarrow.custom:hover,
 	.tp-rightarrow.custom:hover {
-		background-color: #000dbe;
+		background-color: #0a0a15dbe;
 	}
 	
 	
@@ -1466,7 +1466,7 @@
 	}
 	
 	.widget-calendar table td#today {
-		background-color: #000dbe;
+		background-color: #0a0a15dbe;
 		color: #fff;
 	}
 	
@@ -1567,13 +1567,13 @@
  ***********************************************************************************/	
 	
 	#mobile-menu-button {
-		background-color: #000dbe;
+		background-color: #0a0a15dbe;
 		color: #fff;
 	}
 	
 	#mobile-menu {
 		border-bottom-color: #fff;
-		background-color: #000dbe;
+		background-color: #0a0a15dbe;
 	}
 	
 	#mobile-menu li a {
@@ -1894,7 +1894,7 @@
 	
 	.services-list li:nth-child(3n+1){ background-color: #a7d3f5; }
 	.services-list li:nth-child(3n+2){ background-color: #8bc4ef; }
-	.services-list li:nth-child(3n+3){ background-color: #000dbe; }
+	.services-list li:nth-child(3n+3){ background-color: #0a0a15dbe; }
 	
 	.services-list li a,
 	.services-list li h1,
@@ -1927,7 +1927,7 @@
  ***********************************************************************************/
  
 	.portfolio-item-hover {
-		background-color: #000dbe;
+		background-color: #0a0a15dbe;
 		color: #fff;
 	}
 	
