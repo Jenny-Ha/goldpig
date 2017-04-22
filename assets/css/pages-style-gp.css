@@ -1299,7 +1299,7 @@
 		bottom: 0;
 		left: 0;
 		margin: 25px;
-		background-color: #ff112e;
+		background-color: rgba(34, 39, 44, 0.7); /*#ff112e;*/
 		color: #fff;
 		opacity: 0;
 		-webkit-transition: all 0.5s;
@@ -1313,7 +1313,7 @@
 	}
 	
 	.portfolio-item-hover a:hover {
-		color: #22272c;
+		color: #ff112e; /* #22272c;*/
 	}
 	
 	.portfolio-item-hover .zoom-action {
@@ -1382,7 +1382,7 @@
 	}
 	
 	.portfolio-item:hover .portfolio-item-hover {
-		opacity: 0.85;
+		opacity: 0.9;
 	}
 	
 	.portfolio-item:hover .portfolio-item-hover .portfolio-item-details {

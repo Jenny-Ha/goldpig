@@ -296,23 +296,50 @@
 /***********************************************************************************
  *	+ HELPERS
  ***********************************************************************************/	
+ /** {
+   outline: 1px solid rgba(0,0,0,0.3);
+ }*/
  .text-white {
 	 color: #fff;
  }
  .text-uppercase {
 	 text-transform: uppercase;
  }
+ h1.big-letter {
+	font-size: 86px;
+    line-height: 86px;
+	overflow: hidden;
+    color: #ff112e;
+    font-weight: 700;
+    text-transform: uppercase;
+ }
+ @media (max-width: 767px) {
+	h1.big-letter {
+		font-size: 50px;
+    line-height: 50px;
+	}
+ }
+
  .bar-yellow.headline:after {
 	border-color: #ffd100 !important; /* que sobreescriba inherit*/
  }
  .mb-0 {
 	 margin-bottom: 0px !important;
  }
+ .mb-100 {
+	 margin-bottom: 100px;
+ }
  .ml-25 {
 	margin-left: 25px ;
  }
  .pb-0 {
 	 padding-bottom: 0px !important;
+ }
+ /*Slider*/
+ .tp-caption h1 {
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #111;
  }
 /***********************************************************************************
  *	+ HEADLINE
