@@ -1,6 +1,6 @@
 <?php
 	
-	$destination = "name@domain.com"; // email address of destination
+	$destination = "jenny@agenciacreativa1111.com"; // email address of destination
 	
 	error_reporting (E_ALL ^ E_NOTICE);
 
