@@ -306,8 +306,11 @@
 	 text-transform: uppercase;
  }
  h1.big-letter {
-	font-size: 86px;
-    line-height: 86px;
+	 font-size: 86px;
+	 /*line-height: 86px;*/
+ }
+ .big-letter {
+	line-height: 1em;
 	overflow: hidden;
     color: #ff112e;
     font-weight: 700;
@@ -316,7 +319,7 @@
  @media (max-width: 767px) {
 	h1.big-letter {
 		font-size: 50px;
-    line-height: 50px;
+		line-height: 50px;
 	}
  }
 
