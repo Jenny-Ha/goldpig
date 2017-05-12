@@ -158,8 +158,12 @@
 		
 		#header #logo {
 			margin-right: 55px;
+			margin-top: 5px;
+			margin-bottom: 0;
 		}
-		
+		#logo img {
+			height: 40px;
+		}	
 	}
 
 /***********************************************************************************
@@ -206,7 +210,15 @@
 		font-weight: 600;
 		text-transform: uppercase;
 	}
-	
+  /*REsponsive*/
+	@media (min-width: 992px) and (max-width: 1199px) {
+		.menu > li > a {
+			margin-right: 0;
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+	}
+
 	#header.header-dark .menu > li > a {
 		padding: 10px 15px 25px 15px;
 		color: #fff;
@@ -463,7 +475,7 @@
 		
 		#mobile-menu-button {
 			position: absolute;
-			top: 34px;
+			top: 12px;
 			right: 15px;
 			display: block;
 		}
@@ -713,6 +725,85 @@
 	#page-content {
 		padding-bottom: 50px;
 	}
+
+	/* Big letter */
+
+	.big-letter {
+		font-size: 65px;
+		line-height: 1em;
+		overflow: hidden;
+		color: #ff112e;
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+
+	h1.big-letter {
+	 font-size: 86px;
+	 /*line-height: 86px;*/
+	}
+  @media (max-width: 767px) {
+		h1.big-letter {
+			font-size: 50px;
+			line-height: 50px;
+		}
+	}
+	@media (max-width: 500px) {
+		h1.big-letter {
+			font-size: 35px;
+			line-height: 35px;
+		}
+	}
+	/*Slider in Home */
+  .tp-caption {
+		background-color: rgba(0, 0, 0, 0.35);
+		padding: 20px;
+	}
+	.tp-caption .big-letter {
+    text-shadow: 1px 1px 1px rgba(17, 17, 17, 0.65);		
+		line-height: 1.15 !important;
+		margin-left: auto !important;
+		margin-right: auto !important;
+		width: 70%;		
+	}
+	@media (min-width: 1201px){
+		.tp-caption {
+			width: 1800px;			
+		}			
+	}
+	@media (min-width: 992px) and (max-width: 1200px) {
+		.tp-caption {
+			width: 1200px;			
+		}			
+	}
+	@media (min-width: 768px) and (max-width: 991px) {
+		.tp-caption {
+			width: 992px;			
+		}	
+		.tp-caption .big-letter {
+			min-width: 680px;
+		}
+	}
+	@media (min-width: 768px) and (max-width: 991px) {
+		.tp-caption {
+			width: 992px;			
+		}	
+	}
+	@media (min-width: 500px) and (max-width: 767px) {
+		.tp-caption {
+			width: 768px;			
+		}	
+	}
+	@media (min-width: 300px) and (max-width: 499px) {
+		.tp-caption {
+			width: 500px;			
+		}	
+		.tp-caption .big-letter{
+			width: 60%;
+			font-size: 25px !important;
+			line-height: 1.5;
+		}
+	}
+ 
 
 /***********************************************************************************
  *	- PAGE HEADER
