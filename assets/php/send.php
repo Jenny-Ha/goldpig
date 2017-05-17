@@ -1,6 +1,6 @@
 <?php
 	
-	$destination = "admin@goldpigperu.agenciacreativa1111.com"; // email address of destination
+	$destination = "admin@goldpigperu.agenciacreativa1111.com"; // email address of destination pass: @goldpigperu
 	
 	error_reporting (E_ALL ^ E_NOTICE);
 
