@@ -831,11 +831,14 @@
 	#page-header {
 		padding: 55px 0;
 		margin-bottom: 100px;
-		background-color: #1c2125;
+		background:url(../../img/franja-roja.jpg);
+		background-position: cover;
 		/*background-color: #04040a;*/
 		text-align: center;
 	}
-
+	#page-header h1 {
+		text-shadow: 2px 1px 4px rgb(33, 33, 33);
+	}
 	#page-header .text-parallax {
 		background: url(../images/page-header-text.jpg) repeat top left;
 	}
