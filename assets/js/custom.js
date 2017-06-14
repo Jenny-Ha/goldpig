@@ -780,7 +780,8 @@
 						success: function(msg) {
 							
 							if (msg == 'OK') {
-								result = '<div class="alert alert-success">Your message was successfully sent!</div>';
+								// result = '<div class="alert alert-success">Your message was successfully sent!</div>';
+								result = '<div class="alert alert-success">¡Su mensaje fue enviado con éxito!</div>';
 								$("#contact-form").clearForm();
 							} else {
 								result = msg;
@@ -791,7 +792,8 @@
 						},
 						error: function() {
 		
-							result = '<div class="alert alert-danger">There was an error sending the message!</div>';
+							// result = '<div class="alert alert-danger">There was an error sending the message!</div>';
+							result = '<div class="alert alert-danger">Se ha producido un error al enviar el mensaje.</div>';
 							$("#alert-area").html(result);
 		
 						}
