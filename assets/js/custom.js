@@ -771,7 +771,7 @@
 				},
 					
 				// SUBMIT //
-				submitHandler: function(form) {
+				/* submitHandler: function(form) {
 					var result;
 					$(form).ajaxSubmit({
 						type: "POST",
@@ -798,7 +798,7 @@
 		
 						}
 					});
-				}
+				} */
 			});
 			
 		}
